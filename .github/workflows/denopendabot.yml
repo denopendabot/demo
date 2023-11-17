@@ -1,6 +1,7 @@
 # https://github.com/denopendabot
 name: Denopendabot (without GitHub App)
 on:
+  create:
   schedule:
     - cron: "34 19 * * 1-5"
 jobs:
