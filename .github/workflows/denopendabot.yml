@@ -1,0 +1,9 @@
+name: Denopendabot (without GitHub App)
+on:
+  schedule:
+    - cron: "34 19 * * 1-5"
+jobs:
+  denopendabot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: denopendabot/something@v1
