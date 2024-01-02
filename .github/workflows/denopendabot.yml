@@ -11,4 +11,4 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
-      - uses: denopendabot/dependabot-action@v1
+      - uses: denopendabot/dependabot-action@master
